@@ -1,6 +1,6 @@
 {
   "expo": {
-    "name": "myproject",
+    "name": "Todo",
     "slug": "myproject",
     "version": "1.0.0",
     "orientation": "portrait",
@@ -9,7 +9,7 @@
     "splash": {
       "image": "./assets/splash.png",
       "resizeMode": "contain",
-      "backgroundColor": "#ffffff"
+      "backgroundColor": "#FF7F50"
     },
     "assetBundlePatterns": [
       "**/*"
@@ -19,12 +19,18 @@
     },
     "android": {
       "adaptiveIcon": {
-        "foregroundImage": "./assets/adaptive-icon.png",
+        "foregroundImage": "./assets/icon.png",
         "backgroundColor": "#ffffff"
-      }
+      },
+      "package": "com.sajaadkhan7.myproject"
     },
     "web": {
       "favicon": "./assets/favicon.png"
+    },
+    "extra": {
+      "eas": {
+        "projectId": "23a48794-0695-4610-b6f6-c1a3bfb636db"
+      }
     }
   }
 }
